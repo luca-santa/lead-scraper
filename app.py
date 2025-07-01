@@ -6,7 +6,7 @@ import io
 st.set_page_config(page_title="Yelp Lead Scraper (API Powered)", layout="centered")
 st.title("🧲 Yelp Lead Scraper (API Powered)")
 
-API_KEY = "7403d231366e002293783ed72c00047c"
+API_KEY = "AFUBTQP9J9Vyz1Lj-kuzPMEpVU4DaUVYN_4NQQu5poiSJ087SfeTIxI1kqr6X8WaaZb-lF8oVdpxCuJ1VOZEY3xqIQDqlXR-RqRdHuToMCINrdif5LDcU54b0HRjaHYx"
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
 def yelp_search(term, location, limit=10):
